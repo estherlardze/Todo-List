@@ -11,13 +11,14 @@
     padding-top: 100px;
 }
 .app-wrapper{
-    background-color: rgb(19, 86, 84);
+    background-color: #12343b;
     margin:0 auto;
     width: 400px;
-    height:500px;
+    min-height:500px;
     border-radius: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, .3); 
     color: white;
+ 
 }
 .header h1{
     text-align: center;
@@ -48,4 +49,35 @@
 .todo-item{
     list-style: none;
     color: #fff;
+}
+.todo-item{
+    list-style: none;
+    position: relative;
+}
+.todo-input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-left: 2rem;
+    margin-top: 1rem;  
+    background-color: transparent;
+    outline: 1px solid rgb(250, 201, 111);
+    color: #fff;
+    width: 70%;
+    
+}
+.icon{
+    position: absolute;
+    right: 6rem;
+    top: 1.5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.mark-icon{
+    right: 7.5rem;
+}
+.completed{
+    color: #fff;
+    opacity: .5;
+    text-decoration: line-through;
 }
